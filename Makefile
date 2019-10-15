@@ -5,5 +5,5 @@ clean:
 	rm -f main
 
 ana:
-	clang++ --analyze src/main.cpp -I./include --analyzer-output=text
+	clang++ --analyze src/main.cpp -I./include --analyzer-outputhtml 
 
